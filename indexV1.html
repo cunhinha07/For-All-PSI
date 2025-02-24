@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For All</title>
+    <style>
+        body {
+            background-color: #22202A;
+            color: #E5E5EC;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #000000;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            width: 80px;
+        }
+        .header h1 {
+            color: #967D60;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #473D3B;
+            padding: 10px;
+        }
+        .nav a {
+            color: #E5E5EC;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .main {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #967D60;
+            border: none;
+            color: #E5E5EC;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #000000;
+            color: #7E7D85;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .header-buttons {
+            display: flex;
+            align-items: center;
+        }
+        .header-buttons a, .header-buttons button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="For All Logo">
+        <h1>For All - Gestão de Recursos Humanos</h1>
+        <div class="header-buttons">
+            <a href="#login" class="button">Login</a>
+            <a href="#register" class="button">Registo</a>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#login">Página Principal</a>
+        <a href="#jobs">Empregos Disponíveis</a>
+		<a href="#about">Sobre Nós</a>
+    </div>
+    <div class="main">
+        <h2>Bem-vindo ao For All</h2>
+        <p>Seu parceiro em gestão de recursos humanos.</p>
+        <button class="button" onclick="window.location.href='#jobs'">Ver Empregos Disponíveis</button>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 For All - Gestão de Recursos Humanos</p>
+    </div>
+</body>
+</html>
