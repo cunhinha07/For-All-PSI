@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empregos | For All</title>
+	<link rel="stylesheet" href="style.css">
+    <script>
+       const loggedIn = false; // Definir como true se o utilizador estiver logado
+
+        function checkLogin(event) {
+            if (!loggedIn) {
+                event.preventDefault();
+                alert("Você precisa estar logado para se candidatar.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="For All Logo">
+        <h1>For All | Gestão de Recursos Humanos</h1>
+    </div>
+    <div class="nav">
+        <a href="index.html">Página Principal</a>
+        <a href="empregos.html">Empregos Disponíveis</a>
+        <a href="sobre.html">Sobre Nós</a>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <!-- Emprego 1 -->
+            <div class="box">
+                <h2>Desenvolvedor Web</h2>
+                <form onsubmit="checkLogin(event)">
+                    <label>Nome da Empresa:</label>
+                    <p>Tech Solutions</p>
+                    <label>Cargo:</label>
+                    <p>Desenvolvedor Web</p>
+                    <label>Necessidades:</label>
+                    <p>HTML, CSS, JavaScript</p>
+                    <button type="submit">Candidatar-se</button>
+                </form>
+            </div>
+
+            <!-- Emprego 2 -->
+            <div class="box">
+                <h2>Analista de Sistemas</h2>
+                <form onsubmit="checkLogin(event)">
+                    <label>Nome da Empresa:</label>
+                    <p>Informatica Global</p>
+                    <label>Cargo:</label>
+                    <p>Analista de Sistemas</p>
+                    <label>Necessidades:</label>
+                    <p>Análise de sistemas, SQL, gestão de projetos</p>
+                    <button type="submit">Candidatar-se</button>
+                </form>
+            </div>
+
+            <!-- Emprego 3 -->
+            <div class="box">
+                <h2>Engenheiro de Software</h2>
+                <form onsubmit="checkLogin(event)">
+                    <label>Nome da Empresa:</label>
+                    <p>Software Innovators</p>
+                    <label>Cargo:</label>
+                    <p>Engenheiro de Software</p>
+                    <label>Necessidades:</label>
+                    <p>Java, C++, desenvolvimento ágil</p>
+                    <button type="submit">Candidatar-se</button>
+                </form>
+            </div>
+
+            <!-- Emprego 4 -->
+            <div class="box">
+                <h2>Administrador de Redes</h2>
+                <form onsubmit="checkLogin(event)">
+                    <label>Nome da Empresa:</label>
+                    <p>Network Solutions</p>
+                    <label>Cargo:</label>
+                    <p>Administrador de Redes</p>
+                    <label>Necessidades:</label>
+                    <p>Administração de redes, segurança, protocolos de rede</p>
+                    <button type="submit">Candidatar-se</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer2">
+        <p>&copy; 2025 For All | Gestão de Recursos Humanos</p>
+    </div>
+</body>
+</html>

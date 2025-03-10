@@ -1,0 +1,218 @@
+body {
+            background-color: #FFFFFF;
+            color: #22202A;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Alinha os elementos verticalmente */
+            height: 100vh;
+        }
+        .header {
+            background-color: #22202A;
+            padding: 10px; /* Reduz o tamanho do cabeçalho */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+		/*body { /*Aplicado ao ficheiro empregos.html
+            background-color: #FFFFFF;
+            color: #22202A;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }*/
+        .header img {
+            width: 100px;
+        }
+        .header h1 {
+            color: #967D60;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #473D3B;
+            padding: 10px;
+        }
+        .nav a {
+            color: #E5E5EC;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+		.main {
+            flex-grow: 1; /* Faz com que a seção main ocupe o espaço restante*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+		}
+        /*.main {
+            flex-grow: 1; /* Faz com que a seção main ocupe o espaço restante
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+		.main {
+            padding: 20px;
+            text-align: center;
+        }*/
+        .login-form {
+            background-color: #FFFFFF;
+            padding: 40px 20px; /* Aumenta o padding para cima e para baixo */
+            border: 1px solid #22202A;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 320px; /* Ajusta o tamanho da caixa */
+            text-align: center; /* Centraliza o texto */
+        }
+        .login-form label {
+            display: block;
+            margin-bottom: 10px;
+            text-align: center; /* Centraliza os textos dos labels */
+            font-size: 16px; /* Aumenta o tamanho do texto dos labels */
+        }
+        .login-form input {
+            width: 90%; /* Ajusta a largura dos campos de entrada */
+            padding: 12px; /* Ajusta o padding dos campos de entrada */
+            margin-bottom: 15px;
+            border: 1px solid #22202A;
+            border-radius: 5px;
+            text-align: center; /* Centraliza o texto dentro dos campos de entrada */
+            font-size: 8px; /* Aumenta o tamanho do texto dos campos de entrada */
+        }
+        .button {
+            background-color: #967D60;
+            border: none;
+            color: #E5E5EC;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        .footer {
+            background-color: #473D3B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+        }
+		button {
+            padding: 10px;
+            background-color: #967D60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .footer2 {
+            background-color: #473D3B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-top: 10px;
+        }
+
+        label, input, textarea, button {
+            display: block;
+            margin: 8px 0;
+        }
+
+        input, textarea {
+            width: 100%;
+        }
+		
+/*
+body {
+            background-color: #FFFFFF;
+            color: #22202A;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #22202A;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            width: 100px;
+        }
+        .header h1 {
+            color: #967D60;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #473D3B;
+            padding: 10px;
+        }
+        .nav a {
+            color: #E5E5EC;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .main {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #967D60;
+            border: none;
+            color: #E5E5EC;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        .footer {
+            background-color: #473D3B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .header-buttons {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .header-buttons a {
+            margin-left: 10px;
+        }
+*/

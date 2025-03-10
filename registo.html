@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registo | For All</title>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #22202A;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Alinha os elementos verticalmente */
+            height: 100vh;
+        }
+        .header {
+            background-color: #22202A;
+            padding: 10px; /* Reduz o tamanho do cabeçalho */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            width: 100px;
+        }
+        .header h1 {
+            color: #967D60;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #473D3B;
+            padding: 10px;
+        }
+        .nav a {
+            color: #E5E5EC;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .main {
+            flex-grow: 1; /* Faz com que a seção main ocupe o espaço restante */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .register-form {
+            background-color: #FFFFFF;
+            padding: 40px 20px; /* Aumenta o padding para cima e para baixo */
+            border: 1px solid #22202A;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 320px; /* Ajusta o tamanho da caixa */
+            text-align: center; /* Centraliza o texto */
+        }
+        .register-form label {
+            display: block;
+            margin-bottom: 10px;
+            text-align: center; /* Centraliza os textos dos labels */
+            font-size: 16px; /* Aumenta o tamanho do texto dos labels */
+        }
+        .register-form input {
+            width: 90%; /* Ajusta a largura dos campos de entrada */
+            padding: 12px; /* Ajusta o padding dos campos de entrada */
+            margin-bottom: 15px;
+            border: 1px solid #22202A;
+            border-radius: 5px;
+            text-align: center; /* Centraliza o texto dentro dos campos de entrada */
+            font-size: 8px; /* Aumenta o tamanho do texto dos campos de entrada */
+        }
+        .button {
+            background-color: #967D60;
+            border: none;
+            color: #E5E5EC;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        .footer {
+            background-color: #473D3B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="For All Logo">
+        <h1>For All | Gestão de Recursos Humanos</h1>
+        <div class="header-buttons">
+            <a href="login.html" class="button">Login</a>
+            <a href="registo.html" class="button">Registo</a>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="index.html">Página Principal</a>
+        <a href="empregos.html">Empregos Disponíveis</a>
+        <a href="sobre.html">Sobre Nós</a>
+    </div>
+    <div class="main">
+        <div class="register-form">
+            <h3>Registo</h3>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="username">Utilizador:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button class="button" type="submit">Registar</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 For All | Gestão de Recursos Humanos</p>
+    </div>
+</body>
+</html>
